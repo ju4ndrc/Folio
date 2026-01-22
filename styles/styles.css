@@ -17,6 +17,20 @@ a{
     color: darkgreen;
 }
 
-.description{
+.descripton:hover{
     color: blueviolet;
+    border: 5px solid transparent;
+}
+.descripton:active{
+    outline: 10px solid black;
+}
+input:focus{
+    border: transparent;
+}
+input{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: #000;
+    background: transparent;
 }
