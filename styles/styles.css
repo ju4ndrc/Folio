@@ -34,3 +34,6 @@ input{
     border-bottom: #000;
     background: transparent;
 }
+li:first-child{
+    color: blue;
+}
